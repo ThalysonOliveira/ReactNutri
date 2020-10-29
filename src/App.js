@@ -26,6 +26,7 @@ export default class App extends Component {
               <strong className="titulo">{item.titulo}</strong>
               <img src={item.capa} className="capa"/>
               <p className="subtitulo">{item.subtitulo}</p>
+              <a className="btn"></a>
             </artile>
           )
         })}
