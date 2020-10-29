@@ -20,7 +20,15 @@ export default class App extends Component {
   render(){
     return(
       <div>
-        
+        {this.state.nutri.map((item)=>{
+          return(
+            <artile className="container" key={item.id}>
+              <strong className="titulo">{item.titulo}</strong>
+              <img src={item.capa} className="capa"/>
+              <p className="subtitulo">{item.subtitulo}</p>
+            </artile>
+          )
+        })}
       </div>
     )
   }
