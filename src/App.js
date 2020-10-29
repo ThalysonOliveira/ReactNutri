@@ -12,6 +12,9 @@ export default class App extends Component {
     const url = 'https://sujeitoprogramador.com/rn-api/?api=posts'
     const reponse = await fetch(url)
     const apiNutri = await reponse.json()
+    const state = this.state
+    state.nutri = apiNutri
+    this.setState(state)
   }
 
   render(){
