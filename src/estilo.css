@@ -27,7 +27,7 @@ header strong:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 700px;
+    width: 80vh;
     background-color: #fff;
     border-radius: 7px;
     border-width: 1px;
@@ -36,6 +36,7 @@ header strong:hover{
 }
 
 .titulo{
+    text-align: center;
     font-size: 25px;
     margin-bottom: 25px;
     margin-top: 10px;
