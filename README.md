@@ -12,7 +12,7 @@
   <img alt="BlogReactNutri" src="https://i.imgur.com/56xS7Gf.png" width="100%">
 </p>
 
-## 🚀 Tecnologia
+## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido utilizando a seguinte tecnologia:
 
